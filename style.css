@@ -1,0 +1,426 @@
+:root {
+  font-size: 65%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+nav,
+main {
+  padding: 0 1.5rem;
+}
+
+main {
+  margin-bottom: 5rem;
+}
+
+/*#region Nav*/
+nav {
+  height: 4vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  font-family: "Heebo";
+  font-weight: 800;
+  font-size: 2.3rem;
+  text-decoration: none;
+
+  color: #333333;
+
+  cursor: pointer;
+}
+
+nav > div {
+  cursor: pointer;
+
+  z-index: 99;
+}
+
+.line {
+  background: black;
+  height: 3px;
+  width: 20px;
+
+  margin-top: 3px;
+}
+
+.line1 {
+  margin-top: 0;
+}
+
+/*#endregion*/
+
+/*#region Introduction*/
+
+#introduction {
+  margin-top: 3rem;
+}
+
+.who-we-are,
+.what-we-do,
+.contact-form {
+  max-width: 75%;
+  margin: 0 auto 1rem;
+}
+
+.who-we-are p {
+  font-weight: 500;
+  font-size: 12px;
+  color: #2d9cdb;
+}
+
+.who-we-are h1 {
+  font-weight: 500;
+  font-size: 24px;
+
+  color: #333333;
+}
+
+#introduction img {
+  width: 100%;
+  height: 14rem;
+
+  border-radius: 1.5rem;
+}
+
+.what-we-do {
+  margin: 1.5rem auto 3rem;
+}
+
+.what-we-do h2 {
+  font-weight: 500;
+  font-size: 24px;
+
+  color: #333333;
+
+  margin-bottom: 1.5rem;
+}
+
+.what-we-do p {
+  max-width: 80%;
+
+  font-size: 12px;
+
+  color: #4f4f4f;
+}
+
+.contact-form label {
+  display: block;
+
+  font-weight: 500;
+  font-size: 1rem;
+
+  color: #828282;
+
+  margin-bottom: 0.7rem;
+}
+
+.contact-form input {
+  display: inline-block;
+
+  width: 90%;
+
+  padding: 1.5rem 2rem;
+
+  background: #f2f2f2;
+  border: none;
+  border-radius: 12px;
+}
+
+.contact-form button {
+  background: #2d9cdb;
+  border: none;
+  border-radius: 12px;
+
+  font-weight: 500;
+  font-size: 14px;
+  color: #f2f2f2;
+
+  padding: 1rem 2rem;
+
+  cursor: pointer;
+
+  margin-left: -6rem;
+}
+
+/*#endregion*/
+
+/*#region Services*/
+
+#services {
+  margin-top: 7rem;
+}
+
+#services h1 {
+  margin: 0 auto 4rem;
+
+  font-weight: 500;
+  font-size: 2.5rem;
+
+  color: #333333;
+
+  width: 90%;
+}
+
+.service {
+  box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+  border-radius: 2.2rem;
+
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin-bottom: 5rem;
+}
+
+.service .material-icons {
+  font-size: 3rem;
+
+  color: white;
+  background: #2d9cdb;
+
+  border-radius: 1.2rem;
+
+  margin-bottom: 2.5rem;
+
+  padding: 1.5rem;
+}
+
+.service h3 {
+  font-weight: bold;
+  font-size: 2rem;
+
+  color: #333333;
+
+  margin-bottom: 2.5rem;
+}
+
+.service p {
+  font-size: 2rem;
+
+  color: #4f4f4f;
+
+  margin-bottom: 2rem;
+
+  max-width: 90%;
+}
+
+.service button {
+  color: #828282;
+  background: #e0e0e0;
+
+  border: none;
+  border-radius: 1rem;
+
+  font-weight: 500;
+  font-size: 1.5rem;
+
+  padding: 0.7rem;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.service button:hover {
+  background: #2d9cdb;
+  color: white;
+}
+
+/*#endregion*/
+
+/*#region Projects*/
+#projects {
+  margin-top: 6rem;
+}
+
+#projects h1 {
+  margin: 0 1rem 4rem;
+
+  font-weight: 500;
+  font-size: 2.5rem;
+
+  color: #333333;
+
+  width: 90%;
+}
+
+.project {
+  margin-bottom: 4rem;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 1.2rem;
+
+  margin-bottom: 1rem;
+}
+
+.project small {
+  font-weight: 300;
+  font-size: 1.3rem;
+
+  color: #828282;
+}
+
+.project h2 {
+  font-weight: 500;
+  font-size: 1.8rem;
+
+  color: #333333;
+}
+
+.see-more {
+  margin-top: -2rem;
+
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.see-more p,
+.see-more .material-icons {
+  color: #2d9cdb;
+}
+
+.see-more p {
+  font-weight: 500;
+  font-size: 1.8rem;
+
+  margin-right: 1rem;
+}
+
+.see-more .material-icons {
+  font-size: 2rem;
+}
+
+/*#endregion*/
+
+/*#region Team*/
+#team {
+  margin-top: 5rem;
+}
+
+#team h4 {
+  font-weight: 500;
+  font-size: 1.8rem;
+
+  color: #eb5757;
+}
+
+.quote {
+  font-weight: 500;
+  font-size: 2.5rem;
+  color: #333333;
+
+  margin-top: 8rem;
+  margin-bottom: 2.5rem;
+}
+
+.quote-owner {
+  display: flex;
+  align-items: center;
+}
+
+.quote-owner img {
+  width: 7.8rem;
+  height: 7.8rem;
+
+  border-radius: 1.1rem;
+
+  margin-right: 3rem;
+}
+
+.quote-owner div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quote-owner div h2 {
+  font-weight: 500;
+  font-size: 2.2rem;
+
+  color: #333333;
+
+  margin-bottom: 1rem;
+}
+
+.quote-owner div p {
+  font-weight: 500;
+  font-size: 1.8rem;
+
+  color: #828282;
+}
+
+/*#endregion*/
+
+/*#region Footer*/
+footer {
+  background: #100e1d;
+  padding: 2rem;
+}
+
+footer ul {
+  list-style: none;
+
+  margin-bottom: 3rem;
+}
+
+footer li {
+  margin: 1rem 0;
+  font-size: 1.8rem;
+}
+
+footer a {
+  color: white;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.social-medias {
+  margin-bottom: 5rem;
+}
+
+.social-medias h1 {
+  font-family: "Heebo";
+  font-weight: 800;
+  font-size: 3.6rem;
+
+  color: #f2f2f2;
+}
+
+.social-medias img {
+  margin-right: 0.6rem;
+  cursor: pointer;
+}
+
+footer .contact-form {
+  margin-left: 0;
+  margin-bottom: 10rem;
+}
+
+footer .contact-form button {
+  margin-left: -8rem;
+}
+
+footer p {
+  font-family: "Heebo";
+  font-weight: 600;
+  font-size: 1.4rem;
+
+  color: #a9a9a9;
+  text-align: center;
+}
+
+/*#endregion*/
