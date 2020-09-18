@@ -318,7 +318,34 @@ nav > div {
   color: #eb5757;
 }
 
-.quote {
+#team h1 {
+  font-weight: 500;
+  font-size: 2.5rem;
+
+  color: #333333;
+
+  width: 90%;
+}
+
+#team p {
+  font-size: 1.6rem;
+
+  color: #4f4f4f;
+}
+
+.team-photos {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.team-photos img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+#team .quote {
   font-weight: 500;
   font-size: 2.5rem;
   color: #333333;
@@ -386,6 +413,10 @@ footer a {
   color: white;
   font-size: 1.8rem;
   text-decoration: none;
+}
+
+footer a:hover {
+  font-weight: bold;
 }
 
 .social-medias {
